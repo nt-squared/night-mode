@@ -1,0 +1,29 @@
+{
+  "name": "deploy-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build --public-url ./ ./src/index.html --dist-dir ./src/public --no-source-maps --no-cache --no-content-hash"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "parcel-resolver-ignore": "^2.1.3"
+  },
+  "parcelIgnore": [
+    "images\/*.*"
+  ],
+  "browserslist": [
+    "defaults"
+  ]
+}

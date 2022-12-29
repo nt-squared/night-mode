@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="website">
+    <meta name="author" content="Kiêm Tuyên">
+    <meta name="description" content="Night:Mode official website">
+    <meta property="og:title" content="Always young and gifted">
+    <meta property="og:description" content="Night:Mode official website">
+    <meta property="og:image" content="https://nt-squared.github.io/night-mode/images/og-image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="940">
+    <meta property="og:image:height" content="950">
+    <meta property="og:site_name" content="Night:Mode">
+    <meta property="og:url" content="https://nt-squared.github.io/night-mode">
+    <link rel="image_src" href="https://nt-squared.github.io/night-mode/images/og-image.png">
+    <link rel="stylesheet" href="index.css">
+    <title>Night:Mode</title>
+</head>
+
+<body>
+    <header>
+        <a href="#main" id="skipToMain" class="hidden">Skip To main content</a>
+        <a href="index.html" class="site-logo" aria-label="Night:Mode logo"></a>
+
+        <nav class="nav-bar" aria-label="main navigation">
+            <button type="button" class="menu-button" data-menu-button="" aria-controls="navigation list"
+                aria-expanded="false" aria-label="toggle mobile-menu">
+                <div class="hamburger"></div>
+            </button>
+
+            <ul class="unstyled-list nav__list" aria-label="navigation list">
+                <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+                <li class="nav__item"><a class="nav__link" href="#members">Members</a></li>
+                <li class="nav__item"><a class="nav__link" href="#events">Events</a></li>
+                <li class="nav__item"><a class="nav__link btn btn-contact"
+                        href="mailto:nightmodevn@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section id="home" class="hero" data-hero-section="" role="region" aria-labelledby="intro-title">
+        <div id="intro-title" class="hidden">Intro Section</div>
+        <h1 class="hero__title hidden">Night:Mode</h1>
+        <div class="hero__designer" aria-describedby="design-desc" aria-labelledby="designer">
+            <span id="design-desc" class="hidden">Designer of the intro image</span>
+            <span id="designer" class="hidden">Yen Yen</span>
+        </div>
+    </section>
+
+    <main id="main">
+        <!-- About section -->
+        <section id="about" class="about" role="region" aria-labelledby="about-title">
+            <div class="container">
+                <div class="about__content">
+                    <h2 id="about-title" class="title">About us</h2>
+                    <p class="about__desc">
+                        We are Artist - DJ<br>
+                        & Event Organizer
+                    </p>
+                    <p class="about__subtitle">
+                        Founded in 2021, Night:Mode is the home of young people who keep their love for
+                        music and art alive.
+                    </p>
+                </div>
+                <div class="about__image">
+                    <div class="column">
+                        <img class="landscape" src="./images/about/dj-1.jpg" alt="" aria-hidden="true">
+                        <img class="portrait" src="./images/about/about-3.jpg" alt="" aria-hidden="true">
+                        <img class="landscape" src="./images/about/about-1.jpg" alt="" aria-hidden="true">
+                        <img class="portrait" src="./images/about/about-6.jpg" alt="" aria-hidden="true">
+                    </div>
+
+                    <div class="column">
+                        <img class="portrait" src="./images/about/about-2.jpg" alt="" aria-hidden="true">
+                        <img class="landscape" src="./images/about/about-11.jpg" alt="" aria-hidden="true">
+                        <img class="portrait" src="./images/about/about-5.jpg" alt="" aria-hidden="true">
+                        <img class="landscape" src="./images/about/about-13.jpg" alt="" aria-hidden="true">
+                    </div>
+
+                    <div class="column">
+                        <img class="landscape" src="./images/about/about-10.jpg" alt="" aria-hidden="true">
+                        <img class="portrait" src="./images/about/about-4.jpg" alt="" aria-hidden="true">
+                        <img class="landscape" src="./images/about/about-14.jpg" alt="" aria-hidden="true">
+                        <img class="portrait" src="./images/about/about-8.jpg" alt="" aria-hidden="true">
+                    </div>
+
+                    <div class="column">
+                        <img class="portrait" src="./images/about/about-7.jpg" alt="" aria-hidden="true">
+                        <img class="landscape" src="./images/about/about-12.jpg" alt="" aria-hidden="true">
+                        <img class="portrait" src="./images/about/about-9.jpg" alt="" aria-hidden="true">
+                        <img class="landscape" src="./images/about/dj-2.jpg" alt="" aria-hidden="true">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Member section -->
+        <section id="members" class="member" role="region" aria-labelledby="members-title">
+            <div class="container">
+                <h2 id="members-title" class="title">Members</h2>
+                <div class="member__cards">
+                    <!-- grid-1 -->
+                    <!-- Gin Card -->
+                    <div class="member__card">
+                        <div class="member__body">
+                            <img class="member__image" src="./images/artists/gin-sk.jpg" alt="Gin SK"
+                                aria-hidden="false">
+                            <p class="member__name">Gin SK</p>
+                            <button type="button" class="btn btn-info" data-button-open="" data-target-modal="#gin">
+                                More info <span class="hidden">about Gin SK</span>
+                            </button>
+                        </div>
+                        <!-- Modal Gin -->
+                        <dialog id="gin">
+                            <div class="member__info">
+                                <button type="button" class="btn btn-close" data-button-close="">&times;</button>
+                                <img class="member__info__image" src="./images/artists/gin-sk.jpeg" alt=""
+                                    aria-hidden="true">
+                                <p class="member__info__name">Gin SK</p>
+                                <div class="member__info__content">
+                                    <p>Gin SK is a Progressive and Electro House main DJ from Ho Chi Minh City, Vietnam.
+                                    </p>
+                                    <p>He used to be a contestant in the Mix Us Happy 2019 DJ contest organized by
+                                        Pioneer DJ Vietnam.</p>
+                                    <p>Emotional, energetic and powerful are the words to describe GinSK's music.</p>
+                                    <p>He always aims to transform his sounds into his own unique persona and creates
+                                        different but irresistible tunes for his audience to enjoy.</p>
+                                    <p>GENRE: EDM, Electro/Progressive/House, Tech House</p>
+                                    <ul class="unstyled-list member__social__list">
+                                        <li class="social__icon">
+                                            <a href="https://www.instagram.com/thphi.sk/" aria-label="instagram"
+                                                target="_blank">
+                                                <img src="./images/icons/instagram-icon.jpeg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.facebook.com/GinSKmusic.Official"
+                                                aria-label="facebook page" target="_blank">
+                                                <img src="./images/icons/brand-facebook.svg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://soundcloud.com/soulkid-sk" aria-label="soundcloud"
+                                                target="_blank">
+                                                <img src="./images/icons/soundcloud-icon.jpeg" alt=""
+                                                    aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.tiktok.com/@hoengphuy" aria-label="tiktok"
+                                                target="_blank">
+                                                <img src="./images/icons/tiktok-icon.png" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+                    <!-- Eyed Card -->
+                    <div class="member__card">
+                        <div class="member__body">
+                            <img class="member__image" src="./images/artists/eyed.jpg" alt="EYED" aria-hidden="false">
+                            <p class="member__name">EYED</p>
+                            <button type="button" class="btn btn-info" data-button-open="" data-target-modal="#eyed">
+                                More info <span class="hidden">about EYED</span>
+                            </button>
+                        </div>
+                        <!-- Modal Eyed -->
+                        <dialog id="eyed" role="dialog">
+                            <div class="member__info">
+                                <button type="button" class="btn btn-close" data-button-close="">&times;</button>
+                                <img class="member__info__image" src="./images/artists/eyed-1.jpg" alt=""
+                                    aria-hidden="true">
+                                <p class="member__info__name">EYED</p>
+                                <div class="member__info__content">
+                                    <p>Since becoming a DJ, EYED has been used to the hustle and bustle of Saigon city.
+                                    </p>
+                                    <p>To take his dream seriously, EYED constantly learns from seniors after achieving
+                                        the
+                                        1st
+                                        runner-up prize of Mix Us Happy.</p>
+                                    <p>GENRE: Trap, Hiphop, Psy, Tech House, Club House, etc.</p>
+                                    <ul class="unstyled-list member__social__list">
+                                        <li class="social__icon">
+                                            <a href="https://www.instagram.com/eyedmusic.official"
+                                                aria-label="instagram" target="_blank">
+                                                <img src="./images/icons/instagram-icon.jpeg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.youtube.com/channel/UCyDBpf9ddDUmK572Nofz-oQ?view_as=subscriber"
+                                                aria-label="youtube channel" target="_blank">
+                                                <img src="./images/icons/youtube-icon.jpeg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.facebook.com/EYED.Official" aria-label="facebook page"
+                                                target="_blank">
+                                                <img src="./images/icons/brand-facebook.svg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://hearthis.at/eyed/" aria-label="hearthis" target="_blank">
+                                                <img src="./images/icons/hearthis-icon.png" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://soundcloud.com/eyed_official" aria-label="soundcloud"
+                                                target="_blank">
+                                                <img src="./images/icons/soundcloud-icon.jpeg" alt=""
+                                                    aria-hidden="true">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+                    <!-- K.T Card -->
+                    <div class="member__card">
+                        <div class="member__body">
+                            <img class="member__image" src="./images/artists/kt.jpg" alt="K.T" aria-hidden="false"
+                                style="object-position:0% 0%">
+                            <p class="member__name">K.T</p>
+                            <button type="button" class="btn btn-info" data-button-open="" data-target-modal="#kt">
+                                More info <span class="hidden">about K.T</span>
+                            </button>
+                        </div>
+
+                        <!-- Modal K.T -->
+                        <dialog id="kt">
+                            <div class="member__info">
+                                <button type="button" class="btn btn-close" data-button-close="">&times;</button>
+                                <img class="member__info__image" src="./images/artists/kt.jpg" alt="" aria-hidden="true"
+                                    style="object-position:0% 29.5%">
+                                <p class=" member__info__name">K.T</p>
+                                <div class="member__info__content">
+                                    <p>After participating in Mix Us Happy Vietnam 2019, K.T keeps discovering the
+                                        magical music world and establishes Night:Mode Collective with his DJ friends.
+                                    </p>
+                                    <p>For him, making people sympathize with others through music is the most wonderful
+                                        thing.</p>
+                                    <p>GENRE: EDM</p>
+                                    <ul class="unstyled-list member__social__list">
+                                        <li class="social__icon">
+                                            <a href="https://www.instagram.com/ktmusic.official/?fbclid=IwAR3SrSUUstpLuGbI051D0dfNmZWFQkvEltzyDw4mxY6iC5Pb-F3UWGbIguE"
+                                                aria-label="instagram" target="_blank">
+                                                <img src="./images/icons/instagram-icon.jpeg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.facebook.com/KTmusic.official"
+                                                aria-label="facebook page" target="_blank">
+                                                <img src="./images/icons/brand-facebook.svg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+
+                    <!-- grid-2 -->
+                    <!-- Mofu Card -->
+                    <div class="member__card">
+                        <div class="member__body">
+                            <img class="member__image" src="./images/artists/mofu.jpg" alt="MOFU" aria-hidden="false"
+                                style="object-position:0% 100%">
+                            <p class="member__name">MOFU</p>
+                            <button type="button" class="btn btn-info" data-button-open="" data-target-modal="#mofu">
+                                More info <span class="hidden">about MOFU</span>
+                            </button>
+                        </div>
+
+                        <!-- Modal Mofu -->
+                        <dialog id="mofu">
+                            <div class="member__info">
+                                <button type="button" class="btn btn-close" data-button-close="">&times;</button>
+                                <img class="member__info__image" src="./images/artists/mofu.png" alt=""
+                                    aria-hidden="true">
+                                <p class="member__info__name">MOFU</p>
+                                <div class="member__info__content">
+                                    <p>MOFU is the youngest music producer/DJ of Night:Mode.</p>
+                                    <p>Inspired by Anime and J-Pop, he has created many Bass music tracks from his bed
+                                        room.</p>
+                                    <p>Behind his timid exterior, there's an artist who gives the crowd a lift with
+                                        crazy performance and positive energy.</p>
+                                    <p>GENRE: Bass Music</p>
+                                    <ul class="unstyled-list member__social__list">
+                                        <li class="social__icon">
+                                            <a href="https://www.instagram.com/mofu_electronice_music/?fbclid=IwAR2JPy67tjb1JcyuLpGmYTmQrL7dQYH2VIyvMIM3nY5uLdQ"
+                                                aria-label="instagram" target="_blank">
+                                                <img src="./images/icons/instagram-icon.jpeg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.youtube.com/@mofu6320" aria-label="youtube channel"
+                                                target="_blank">
+                                                <img src="./images/icons/youtube-icon.jpeg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.facebook.com/MOFUeletronicemusic"
+                                                aria-label="facebook page" target="_blank">
+                                                <img src="./images/icons/brand-facebook.svg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://soundcloud.com/mofuelectronicemusic?fbclid=IwAR1lmTFKSRQfn3P66SR0nQsIqOpTPxFMrjarajG1qi4tmTLAgbtG6pVk6To"
+                                                aria-label="soundcloud" target="_blank">
+                                                <img src="./images/icons/soundcloud-icon.jpeg" alt=""
+                                                    aria-hidden="true">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+                    <!-- Auris Card -->
+                    <div class="member__card">
+                        <div class="member__body">
+                            <img class="member__image" src="./images/artists/auris.jpg" alt="Auri$" aria-hidden="false"
+                                style="filter:contrast(120%)brightness(150%)">
+                            <p class="member__name">Auri$</p>
+                            <button type="button" class="btn btn-info" data-button-open="" data-target-modal="#auris">
+                                More info <span class="hidden">about Auri$</span>
+                            </button>
+                        </div>
+
+                        <!-- Modal Autis -->
+                        <dialog id="auris">
+                            <div class="member__info">
+                                <button type="button" class="btn btn-close" data-button-close="">&times;</button>
+                                <img class="member__info__image" src="./images/artists/auris.jpg" alt=""
+                                    aria-hidden="true" style="filter:contrast(120%)brightness(150%)">
+                                <p class="member__info__name">Auri$</p>
+                                <div class="member__info__content">
+                                    <p>From a bedroom DJ sharing her mixset online, Auri$ took the chance to perform at
+                                        the first Night:Mode : The Listening Party and joined the crew since then.</p>
+                                    <p>Joyful and loving tunes are her favorite picks in every performance.</p>
+                                    <p>GENRE: Tech House</p>
+                                    <ul class="unstyled-list member__social__list">
+                                        <li class="social__icon">
+                                            <a href="https://www.instagram.com/just.auris/?fbclid=IwAR1XZhAfFAEFnNvDrFLNQ-ygHAgGazDzztMLQhQ0YpBdCMejx832nMyW1gs"
+                                                aria-label="instagram" target="_blank">
+                                                <img src="./images/icons/instagram-icon.jpeg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                        <li class="social__icon">
+                                            <a href="https://www.facebook.com/just.auris27" aria-label="facebook page"
+                                                target="_blank">
+                                                <img src="./images/icons/brand-facebook.svg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+                    <!-- Phat Card -->
+                    <div class="member__card">
+                        <div class="member__body">
+                            <img class="member__image" src="./images/artists/phat.png" alt="Tran Phat"
+                                aria-hidden="false" style="object-position:0% 100%">
+                            <p class="member__name">Tran Phat</p>
+                            <button type="button" class="btn btn-info" data-button-open="" data-target-modal="#phat">
+                                More info <span class="hidden">about Tran Phat</span>
+                            </button>
+                        </div>
+
+                        <!-- Modal Phat -->
+                        <dialog id="phat">
+                            <div class="member__info">
+                                <button type="button" class="btn btn-close" data-button-close="">&times;</button>
+                                <img class="member__info__image" src="./images/artists/phat.png" alt=""
+                                    aria-hidden="true">
+                                <p class="member__info__name">Tran Phat</p>
+                                <div class="member__info__content">
+                                    <p>Tran Phat passionates about a variety of sounds and music in different
+                                        cultures
+                                        and shares the good vibe with people.</p>
+                                    <p>He is the co-founder of Night:Mode, the paperwork guy and also a DJ.</p>
+                                    <p>He is part of a formidable duo called LUDENS. Together with MOFU, they share
+                                        a
+                                        common vision of the experimentality in Bass Music.</p>
+                                    <p>GENRE: Bass Music</p>
+                                    <ul class="unstyled-list member__social__list">
+                                        <li class="social__icon">
+                                            <a href="https://www.facebook.com/tranphat1920" aria-label="facebook page"
+                                                target="_blank">
+                                                <img src="./images/icons/brand-facebook.svg" alt="" aria-hidden="true">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events section -->
+        <section id="events" class="events" role="region" aria-labelledby="events-title">
+            <div class="container">
+                <h2 id="events-title" class="title">Events</h2>
+                <div class="event">
+                    <div class="event__image left-side slide-in">
+                        <img src="./images/events/event-4.jpg" alt="" aria-hidden="true">
+                    </div>
+                    <div class="event__content right-side slide-in">
+                        <h3 class="event__subtitle"><span>NIGHT : MODE -</span>4536</h3>
+                        <a target="_blank" class="btn btn-event"
+                            href="https://www.facebook.com/NightModeVN/posts/pfbid027Ln3JGjZD1GQ7HiQUfbvcx3EPTis4ijhtLNxEGJCoBXX1JTE1vX1NJDwzmWPgEoel">
+                            More details <span class="hidden">about the event</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="event__content left-side slide-in">
+                        <h3 class="event__subtitle"><span>NIGHT : MODE -</span>THE LISTENING PARTY #3 | THE STORY OF
+                            THE NIGHT</h3>
+                        <a target="_blank" class="btn btn-event"
+                            href="https://www.facebook.com/NightModeVN/posts/pfbid02pTGe25yfPbuhYjcdCGWHeMAESzzHG9MutpQY6GvKuqMXPZehgL4C68uvp31ES4zPl">
+                            More details <span class="hidden">about the event</span>
+                        </a>
+                    </div>
+                    <div class="event__image right-side slide-in">
+                        <img src="./images/events/event-3.jpg" alt="" aria-hidden="true">
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="event__image left-side slide-in">
+                        <img src="./images/events/event-2.png" alt="" aria-hidden="true">
+                    </div>
+                    <div class="event__content right-side slide-in">
+                        <h3 class="event__subtitle"><span>NIGHT : MODE -</span>THE LISTENING PARTY #2</h3>
+                        <a target="_blank" class="btn btn-event"
+                            href="https://www.facebook.com/NightModeVN/posts/pfbid02au4reKHDtwvCKpkqqBDRhLjZmafxNGUmAfF39sNJbZiWxAJ11VeAfvUrFy5QJ7rbl">
+                            More details <span class="hidden">about the event</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="event__content left-side slide-in">
+                        <h3 class="event__subtitle"><span>NIGHT : MODE -</span>THE LISTENING PARTY</h3>
+                        <a target="_blank" class="btn btn-event"
+                            href="https://www.facebook.com/media/set/?set=a.108871847870586&type=3">
+                            More details <span class="hidden">about the event</span>
+                        </a>
+                    </div>
+                    <div class="event__image right-side slide-in">
+                        <img src="./images/events/event-1.png" alt="" aria-hidden="true">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="contact">
+        <div class="container">
+            <p class="title title-footer">Night:Mode</p>
+            <ul role="list" class="social-list unstyled-list" aria-label="Night:Mode social media">
+                <li class="social__item" role="listitem">
+                    <a href="https://www.facebook.com/NightModeVN" class="facebook social__link" target="_blank"
+                        aria-label="facebook">
+                        <img src="./images/icons/brand-facebook-1.svg" alt="" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="social__item" role="listitem">
+                    <a href="https://instagram.com/nightmodevn" class="instagram social__link" target="_blank"
+                        aria-label="instagram">
+                        <img src="./images/icons/brand-instagram.svg" alt="" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="social__item" role="listitem">
+                    <a href="https://www.youtube.com/channel/UCL2LDIz5HfpxixqRoqS4j0Q" class="youtube social__link"
+                        target="_blank" aria-label="youtube">
+                        <img src="./images/icons/brand-youtube.svg" alt="" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+            <div class="email" aria-label="contact via email">
+                <span>
+                    <!-- <img src="./images/icons/mail.svg" alt="" aria-hidden="true"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24"
+                        height="24" viewbox="0 0 24 24" stroke-width="2" stroke="white" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                        <polyline points="3 7 12 13 21 7"></polyline>
+                    </svg>
+                </span>
+                <a href="mailto:nightmodevn@gmail.com">nightmodevn@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
